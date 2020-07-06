@@ -1,6 +1,3 @@
-[submodule "my_plugins/ale"]
-	path = my_plugins/ale
-	url = https://github.com/dense-analysis/ale
 [submodule "my_plugins/syntastic"]
 	path = my_plugins/syntastic
 	url = https://github.com/vim-syntastic/syntastic

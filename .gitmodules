@@ -1,3 +1,6 @@
 [submodule "my_plugins/syntastic"]
 	path = my_plugins/syntastic
 	url = https://github.com/vim-syntastic/syntastic
+[submodule "my_plugins/vim-smooth-scroll"]
+	path = my_plugins/vim-smooth-scroll
+	url = https://github.com/terryma/vim-smooth-scroll

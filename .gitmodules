@@ -1,0 +1,15 @@
+[submodule "my_plugins/vim-ripgrep"]
+	path = my_plugins/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep
+[submodule "my_plugins/papercolor-theme"]
+	path = my_plugins/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme
+[submodule "my_plugins/syntastic"]
+	path = my_plugins/syntastic
+	url = https://github.com/vim-syntastic/syntastic
+[submodule "my_plugins/vim-jsx-pretty"]
+	path = my_plugins/vim-jsx-pretty
+	url = https://github.com/MaxMEllon/vim-jsx-pretty
+[submodule "my_plugins/vim-puppet"]
+	path = my_plugins/vim-puppet
+	url = https://github.com/rodjek/vim-puppet

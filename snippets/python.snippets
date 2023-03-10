@@ -1,0 +1,6 @@
+snippet pp
+	with open('/var/tmp/console.txt', 'a') as console:
+	    import pprint
+		pp = pprint.PrettyPrinter()
+		console.write(f'$1: {pp.pformat($2)}\\n')
+endsnippet

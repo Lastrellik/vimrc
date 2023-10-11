@@ -4,3 +4,14 @@ snippet pp
 		pp = pprint.PrettyPrinter()
 		console.write(f'$1: {pp.pformat($2)}\\n')
 endsnippet
+
+snippet rr
+	import splunk.rest as rest
+	import splunk.auth as auth
+	session_key = auth.getSessionKey('$1', '$2')
+	uri = "$3"
+
+	r, c = rest.simpleRequest(uri, method="$4", sessionKey=session_key, raiseAllErrors=True)
+	print(f'response {r}')
+	print(f'content {c}')
+endsnippet

@@ -60,7 +60,7 @@ map <leader>j :CtrlP<cr>
 map <leader>b :CtrlPBuffer<cr>
 
 let g:ctrlp_max_height = 20
-let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee'
+let g:ctrlp_custom_ignore = 'node_modules\|^\.DS_Store\|^\.git\|^\.coffee\|build\|coverage'
 
 
 """"""""""""""""""""""""""""""

@@ -13,3 +13,6 @@
 [submodule "my_plugins/vim-puppet"]
 	path = my_plugins/vim-puppet
 	url = https://github.com/rodjek/vim-puppet
+[submodule "my_plugins/fugitive-gitlab.vim"]
+	path = my_plugins/fugitive-gitlab.vim
+	url = git@github.com:shumphrey/fugitive-gitlab.vim.git
